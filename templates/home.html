@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home</title>
+    <style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body {
+        background-color: rgb(253, 229, 236)
+        display: flex;
+        justify-content: center;
+        min-height: 100vh;
+    }
+    h1   {color: blue;}
+    a {font-size: x-large; 
+       text-align: center;}
+    p    {color: rgb(255, 0, 0);}
+    </style>
+</head>
+<body>
+    <center><h1>Login Authentication System in Flask</h1></center>
+    <a href="{{url_for('login')}}">Login Page</a><br>
+    <a href="{{url_for('register')}}">Registration Page</a><br>
+</body>
+</html>
